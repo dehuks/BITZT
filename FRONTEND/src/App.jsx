@@ -1,7 +1,8 @@
 import React from 'react'
 import NavBar from './Components/NavBar'
-import HeroSection from './Components/HeroSection'
+import Testimonials from './Components/Testimonials'
 import Services from './Components/Services'
+import FAQ from './Components/FAQ'
 
 
 const App = () => {
@@ -9,6 +10,10 @@ const App = () => {
    <>
    <NavBar/>
    <Services/>
+   <Testimonials/>
+   <FAQ/>
+
+
    </>
   )
 }
