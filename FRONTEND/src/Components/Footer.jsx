@@ -10,19 +10,19 @@ const Footer = () => {
                 <div>
                     <img src="" alt="logo" />
                     <h1 className=" text-lg font-semibold text-customq flex gap-1 md:text-3xl">
-              SMS <p className="text-customl">Nasi</p>
-            </h1>                </div>
+                    BITZT    </h1>      
+                              </div>
                 <div>
                     <h1 className='text-customm text-xl'>About Us</h1>
                     <p>
-                        We help you reach a large audiene at the click of a button
+                      The Cybersecurity boys
                     </p>
                 </div>
                 <div>
                 <h1 className='text-customm text-xl pb-3'>Contact Us</h1>
                 <ul className='flex flex-col gap-3'>
-                    <li className='flex gap-4'><PhoneCall size={20} className='text-customm'/> +254757876614  </li>
-                    <li className='flex gap-4'><Mail size={20} className='text-customm'/> SMSNasi.com  </li>
+                    <li className='flex gap-4'><PhoneCall size={20} className='text-customm'/> +254712364456  </li>
+                    <li className='flex gap-4'><Mail size={20} className='text-customm'/> BITZT.com  </li>
 
                     <li></li>
                 </ul>
@@ -62,9 +62,9 @@ const Footer = () => {
                 <div>
                     <h1 className='text-lg mb-4'>Subsribe To Our Newsletter For More Info</h1>
                 </div>
-                <input type="text" className='md:py-3 sm:py-2 h-[40px] px-2 rounded '  placeholder='Enter your Email'/>
+                <input type="text" className='md:py-3 sm:py-2 md:w-full w-1/2 h-[40px] px-2 rounded  border border-white  placeholder:text-neutral-700 '  placeholder='Enter your Email'/>
                <div>
-               <button className='float-left bg-customg px-3 py-1 rounded mt-2'>Subscribe</button>
+               <button className='float-left bg-customg px-3 py-1 rounded mt-2 bg-white text-black'>Subscribe</button>
 
                </div>
                 
