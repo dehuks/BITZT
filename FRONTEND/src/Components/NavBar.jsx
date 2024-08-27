@@ -9,10 +9,10 @@ const NavBar = () => {
     <div className='sticky b relative '>
         <div className=' flex justify-between mt-2 pb-10'>
             <div>
-                <p className='text-2xl '>BITZT</p>
+                <p className='text-2xl mr-5 '>BITZT</p>
             </div>
             <div className='me-4 '>
-                <ul className='flex gap-4'>
+                <ul className='flex gap-2 text-center justify-center flex-wrap'>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Solutions</a></li>

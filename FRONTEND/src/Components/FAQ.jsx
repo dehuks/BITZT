@@ -13,7 +13,7 @@ const FAQ = () => {
   return (
     <div className='relative mt-5'>
         <div className='flex items-center justify-center py-5'>
-            <h1 className='text-2xl tracking-wide'>Frequently Asked Questions</h1>
+            <h1 className='md:text-2xl tracking-wide'>Frequently Asked Questions</h1>
         </div>
         <div className='flex justify-center sm:items-center sm:flex-col  gap-20 ms-5 me-20 '>
             <div>

@@ -5,7 +5,7 @@ import { Facebook,Twitter,Instagram } from 'lucide-react'
 const Footer = () => {
   return (
     <div className='relative mt-10'>
-        <div className='flex md:flex-row sm:flex-col flex-wrap gap-10 ms-5 me-5  md:items-center justify-between  '>
+        <div className='flex md:flex-row flex-col flex-wrap gap-10 ms-5 me-5  md:items-center justify-between  '>
             <div className='flex flex-col gap-5 flex-wrap'>
                 <div>
                     <img src="" alt="logo" />

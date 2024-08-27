@@ -8,11 +8,11 @@ const Testimonials = () => {
             <hr className='ms-2 me-2 opacity-40' />
         </div>
         <div className='flex items-center justify-center py-5'>
-            <h1 className='text-2xl tracking-wide'>What people are saying about us...</h1>
+            <h1 className='md:text-2xl text-lg tracking-thin'>What people are saying about us...</h1>
         </div>
-        <div className='grid grid-cols-3 ms-5 me-5 gap-10'>
+        <div className='grid md:grid-cols-3 grid-cols-1 ms-5 me-5 me-5 gap-10'>
             <div>
-                <div className='flex flex-col gap-3'>
+                <div className='flex flex-col gap-3 flex-wrap'>
                                       
                     <div>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit repudiandae aliquam, nemo sed aut inventore. Dolore recusandae, maiores consectetur quo repudiandae, ab voluptate libero cumque minus vitae commodi fugiat cum.

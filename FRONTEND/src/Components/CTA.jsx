@@ -4,10 +4,10 @@ const CTA = () => {
   return (
     <div className='relative mt-10 mb-5 '>
         <div className='flex items-center  justify-center '>
-        <div className='rounded bg-black py-5 sm:w-[500px] md:w-full md:ms-20 md:me-20'>
+        <div className='rounded bg-black py-5 w-full md:w-full md:ms-20 md:me-20'>
             <div className='flex sm:flex-col md:flex-row items-center justify-between'>
                 <div className='p-5 '>
-                <h1 className='text-2xl md:text-4xl '>Lets get you systems secured today!</h1>
+                <h1 className='text-xl md:text-4xl '>Lets get you systems secured today!</h1>
             <p className='md:text-lg tracking-wide'>Trust our team to deliver quality results.</p>
 
                 </div>
