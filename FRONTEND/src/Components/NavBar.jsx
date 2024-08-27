@@ -1,14 +1,18 @@
 import React from 'react'
-
+import HeroSection from './HeroSection'
 const NavBar = () => {
   return (
-    <div className='relative '>
+    <div className="relative h-screen">
+    <div className="absolute inset-0 bg-custom-image bg-cover bg-center opacity-30"></div>
+    <div className="relative z-10 flex justify-center h-full">
+      <div className="top-0 z-50 rounded-md h-10 w-full">
+    <div className='sticky b relative '>
         <div className=' flex justify-between mt-2 pb-10'>
             <div>
-                <p className='text-2xl '>BITZT</p>
+                <p className='text-2xl mr-5 '>BITZT</p>
             </div>
             <div className='me-4 '>
-                <ul className='flex gap-4'>
+                <ul className='flex gap-2 text-center justify-center flex-wrap'>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Solutions</a></li>
@@ -18,6 +22,10 @@ const NavBar = () => {
                 </ul>
             </div> 
 
+        </div>
+        </div>
+        <HeroSection/>
+        </div>
         </div>
      
 

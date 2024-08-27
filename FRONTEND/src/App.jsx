@@ -1,12 +1,24 @@
 import React from 'react'
 import NavBar from './Components/NavBar'
-import HeroSection from './Components/HeroSection'
+import Testimonials from './Components/Testimonials'
+import Services from './Components/Services'
+import FAQ from './Components/FAQ'
+import CTA from './Components/CTA'
+import Footer from './Components/Footer'
+
 
 const App = () => {
   return (
    <>
    <NavBar/>
-   <HeroSection/>
+   <Services/>
+   <Testimonials/>
+   <FAQ/>
+   <CTA/>
+   <Footer/>
+
+
+
    </>
   )
 }
